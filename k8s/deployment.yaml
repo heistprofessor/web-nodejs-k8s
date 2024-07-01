@@ -18,7 +18,7 @@ spec:
       serviceAccountName: web-deployment-sa
       containers:
         - name: web-app
-          image: your-docker-image:tag
+          image: public.ecr.aws/t4j8r4w0/web:latest
           ports:
             - containerPort: 3000
           volumeMounts:
